@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "redstone-payload-cli",
+  "bin": {
+    "redstone-payload-cli": "./redstone-payload-cli"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@redstone-finance/sdk": "^0.6.2"
+  },
+  "scripts": {
+    "build": "bun build ./index.ts --compile --outfile redstone-payload-cli --minify"
+  }
+}
