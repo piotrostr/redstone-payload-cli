@@ -13,7 +13,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@redstone-finance/sdk": "^0.6.2"
+    "@redstone-finance/sdk": "^0.6.2",
+    "commander": "^12.1.0"
   },
   "scripts": {
     "build": "bun build ./index.ts --compile --outfile redstone-payload-cli --minify"
