@@ -2,7 +2,7 @@
   "version": "1.0.5",
   "name": "redstone-payload-cli",
   "bin": {
-    "redstone-payload-cli": "./redstone-payload-cli"
+    "redstone-payload-cli": "redstone-payload-cli"
   },
   "module": "index.ts",
   "type": "module",
