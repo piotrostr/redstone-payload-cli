@@ -3,7 +3,7 @@ import { requestRedstonePayload } from "@redstone-finance/sdk";
 
 const program = new Command();
 
-const DATA_SERVICE_ID = "redstone-primary-prod";
+const DATA_SERVICE_ID = "redstone-avalanche-prod";
 
 const makePayloadStruct = async (feedId: string, signerCount: number) => {
   const res = await requestRedstonePayload(
